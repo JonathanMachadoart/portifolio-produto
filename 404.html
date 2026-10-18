@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Página não encontrada · Jonathan Machado</title>
+  <meta name="robots" content="noindex">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <style>
+    :root { --bg: #0b0c0a; --ink: #f4f5f1; --muted: #9a9e95; --lime: #c8ff2e; --line: #262824; color-scheme: dark; }
+    * { box-sizing: border-box; }
+    html, body { height: 100%; margin: 0; }
+    body { background: var(--bg); color: var(--ink); font: 400 17px/1.6 system-ui, -apple-system, "Segoe UI", Arial, sans-serif; display: grid; place-items: center; overflow: hidden;
+      background-image: linear-gradient(rgba(200,255,46,.07) 1px, transparent 1px), linear-gradient(90deg, rgba(200,255,46,.07) 1px, transparent 1px); background-size: 32px 32px;
+      padding: 24px max(16px, env(safe-area-inset-left, 0px)) 24px max(16px, env(safe-area-inset-right, 0px)); }
+    .gear { position: fixed; width: min(640px, 90vw); right: -12vw; bottom: -18vw; opacity: .1; animation: spin 40s linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    main { position: relative; max-width: 560px; display: grid; gap: 18px; }
+    .code { font: 500 13px/1 ui-monospace, Menlo, monospace; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+    .code b { color: #0b0c0a; background: var(--lime); padding: 4px 6px; border-radius: 4px; margin-right: 8px; }
+    h1 { margin: 0; font-size: clamp(36px, 8vw, 64px); line-height: 1; letter-spacing: -.03em; font-weight: 800; }
+    h1 span { color: var(--lime); }
+    p { margin: 0; color: var(--muted); }
+    .actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 8px; }
+    a { display: inline-flex; align-items: center; gap: 8px; text-decoration: none; font-weight: 700; padding: 13px 20px; border-radius: 999px; }
+    .main { background: var(--lime); color: #0b0c0a; }
+    .ghost { border: 1px solid var(--line); color: var(--ink); }
+    a:focus-visible { outline: 2px solid var(--lime); outline-offset: 3px; }
+    @media (prefers-reduced-motion: reduce) { .gear { animation: none; } }
+  </style>
+</head>
+<body>
+  <svg class="gear" viewBox="0 0 200 200" aria-hidden="true"><circle cx="100" cy="100" r="78" fill="none" stroke="#c8ff2e" stroke-width="26" stroke-dasharray="30.6 30.6"/><circle cx="100" cy="100" r="58" fill="none" stroke="#c8ff2e" stroke-width="22"/></svg>
+  <main>
+    <span class="code"><b>404</b>Página não encontrada · Page not found</span>
+    <h1>Esta tela ficou fora do <span>fluxo.</span></h1>
+    <p>O endereço pode ter mudado ou estar digitado errado. Volte para o portfólio ou procure o que precisa.</p>
+    <div class="actions">
+      <a class="main" href="/">Voltar ao portfólio →</a>
+      <a class="ghost" href="/#busca">Buscar no site</a>
+      <a class="ghost" href="/#agenda">Agendar conversa</a>
+    </div>
+  </main>
+</body>
+</html>

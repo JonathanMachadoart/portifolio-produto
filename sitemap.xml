@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Se mudar o endereço do site, troque jonathanmachado.pages.dev aqui. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  <url>
+    <loc>https://jonathanmachado.pages.dev/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <image:image><image:loc>https://jonathanmachado.pages.dev/img/cover.webp</image:loc></image:image>
+    <image:image><image:loc>https://jonathanmachado.pages.dev/cases/tarefas-cover.webp</image:loc></image:image>
+    <image:image><image:loc>https://jonathanmachado.pages.dev/cases/sindico-cover.webp</image:loc></image:image>
+    <image:image><image:loc>https://jonathanmachado.pages.dev/cases/websys-cover.webp</image:loc></image:image>
+    <image:image><image:loc>https://jonathanmachado.pages.dev/cases/website-cover.webp</image:loc></image:image>
+    <image:image><image:loc>https://jonathanmachado.pages.dev/cases/identity-cover.webp</image:loc></image:image>
+    <image:image><image:loc>https://jonathanmachado.pages.dev/img/reserva.webp</image:loc></image:image>
+    <image:image><image:loc>https://jonathanmachado.pages.dev/img/web-portaria.webp</image:loc></image:image>
+    <video:video>
+      <video:thumbnail_loc>https://jonathanmachado.pages.dev/video/poster.webp</video:thumbnail_loc>
+      <video:title>O portfólio de Jonathan Machado em 36 segundos</video:title>
+      <video:description>Resumo animado e sem áudio com resultados, telas do CondomínioApp e cinco cases de UX/UI.</video:description>
+      <video:content_loc>https://jonathanmachado.pages.dev/video/reel-pt.mp4</video:content_loc>
+      <video:duration>36</video:duration>
+    </video:video>
+  </url>
+</urlset>
